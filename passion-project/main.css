@@ -4,24 +4,98 @@ body {
     background-size: cover;    
     background-position: center;
     background-attachment:fixed;
-      text-align: center;
+    text-align: center;
       color: white;
-
 }
 
 img {
-    background: yellow;
-    border: 10px solid orangered;
-}
-img:hover {
-    filter:blur(5px)
+    background: #ffb923;
+    border: 10px solid #56c32b;
 }
 
 video{
-    border:10px solid gold;
+    border:10px solid #ff3333;
     margin: none;
+    background:#ea3f37;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.welcome {
+
+h1 {
+     background: hotpink;
+    border: 10px solid #ff8b33;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    text-align: center; 
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.media {
     background: hotpink;
-    border: 10px solid orange;
+    border: 7px solid #ff8b33;
+    width: fit-content;
+    text-align: center; 
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.meet {
+    background: #ff3333;
+    border: 7px solid hotpink;  
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    text-align: center; 
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.meet:hover {
+background: #ffb923;
+    border: 7px solid #ff3333;
+}
+
+ul {
+    background: hotpink;
+    border: 10px solid #ff8b33;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center; 
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.who {
+    background: hotpink;
+    border: 10px solid #ff8b33;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    width: fit-content;
+    text-align: center; 
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration:none;
+    color: white;
 }
