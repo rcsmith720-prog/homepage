@@ -1,0 +1,104 @@
+body {
+    background: rgb(180, 250, 180);
+}
+
+img {
+    max-width:100%
+}
+
+.block {
+    background: lightgoldenrodyellow;
+    margin:10px;
+    padding: 10px;
+}
+
+.inline {
+    background: lightpink;
+    /* for inline elements margin and padding don't funtion like they do with block elements */
+    margin: 10px;
+    padding: 10px;
+    /* width and height have no effect on inline elements */ 
+}
+
+.inline-block {
+    background: lightskyblue;
+    display:inline-block;
+    margin: 10px;
+    padding:10px;
+    /* unlike inline, inline-block can be given width and height */
+    width: 100px;
+    height:100px;
+}
+
+.content-box{
+    background:lightgray;
+    padding:40px;
+    border: 5px solid red;
+    margin:100px;
+    width: 200px;
+    height:200px;
+}
+
+.border-box {
+    background:lightgray;
+    padding:40px;
+    border: 5px solid red;
+    margin:100px;
+    width: 200px;
+    height:200px;
+/* border-box includes the padding and border sizes in the total width and height of the element */
+    box-sizing:border-box;
+}
+
+.square {
+    background: burlywood;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.relative {
+    background: honeydew;
+    position: relative;
+    top:20px;
+    left:20px;
+}
+
+.fixed {
+    background: lightslategray;
+    position:fixed;
+    bottom:0px;
+    right: 0px;
+    margin: 0px;
+}
+
+.sticky {
+    background:lightcyan;
+    position:sticky;
+    top:0px;
+}
+
+.absolute {
+   background:lightseagreen;
+   position:absolute;
+   top:1200px;
+   right:50px;
+}
+
+.smiley {
+    background: lightgoldenrodyellow;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    position:relative;
+}
+
+.eye {
+    background: darkolivegreen;
+    width: 30px;
+    height: 30px;
+    /* in order for this element to be positioned relative to its container, the container also needs to have a position value */
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
