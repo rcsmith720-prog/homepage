@@ -1,103 +1,152 @@
 body {
-    background-image: url("img/background.avif");
+    background-image: url("img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
     background-position: center;
     background-attachment:fixed;
     text-align: center;
-      color: white;
+
 }
 
 img {
-    background: #ffb923;
-    border: 10px solid #56c32b;
+    background: #ffdb84;
+    border: 10px groove #cb861a;
 }
 
+.kermit{
+    flex: 33.33%;
+  padding: 5px;
+}
+.gonzo{
+    flex: 33.33%;
+  padding: 5px;
+}
+.pepe{
+    flex: 33.33%;
+  padding: 5px;
+}
+
+.row1 {
+  display: flex;
+}
+.row2 {
+  display: flex;
+} 
+.row3 {
+  display: flex;
+}
+.row {
+    background: #ffdb84;
+    border: 10px groove #cb861a;
+    padding-left: 0px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: fit-content;
+    text-align: center; 
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Muppet Font";
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #5e1616;
+    list-style: none;
+    font-family: "helvetica-lt-pro", sans-serif;
+    display: flex;
+}
+.list {
+    list-style: none;
+}
 video{
-    border:10px solid #ff3333;
+    border:10px groove #cb861a;
     margin: none;
-    background:#ea3f37;
     width: fit-content;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-h1 {
-     background: hotpink;
-    border: 10px solid #ff8b33;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: fit-content;
-    text-align: center; 
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: "doublebass", sans-serif;
-font-weight: 400;
-font-style: normal;
+.title-banner {
+    background: #5e1616;
+    position: sticky;
+    top:0px;
+    margin: 0px;
+    border: 10px groove #cb861a;
+    font-family: "Muppet Font";
+    font-weight: 400;
+    font-style: normal;
+    color: #ffdb84;
+    font-size: x-large;
 }
-
-.media {
-    background: hotpink;
-    border: 7px solid #ff8b33;
-    width: fit-content;
-    text-align: center; 
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: "doublebass", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-
 .meet {
-    background: #ff3333;
-    border: 7px solid hotpink;  
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: fit-content;
-    text-align: center; 
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: "doublebass", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-
-.meet:hover {
-background: #ffb923;
-    border: 7px solid #ff3333;
-}
-
-ul {
-    background: hotpink;
-    border: 10px solid #ff8b33;
-    width: fit-content;
+     background: #5e1616;
+    border: 10px groove #cb861a;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: fit-content;
     text-align: center; 
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: "helvetica-lt-pro", sans-serif;
-font-weight: 200;
-font-style: normal;
-font-size: 14px
+    font-family: "Muppet Font";
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ffdb84;
 }
+
+
+.media {
+    background: #5e1616;
+    border: 7px groove #cb861a;
+    width: fit-content;
+    text-align: center; 
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Muppet Font";
+    font-weight: 400;
+    font-style: normal;
+    color: #ffdb84;
+}
+
+.name {
+    background: #5e1616;
+    border: 7px groove #cb861a; 
+    color:#ffdb84; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    text-align: center; 
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Muppet Font";
+font-weight: 400;
+font-style: normal;
+}
+
+.name:hover {
+background: #cb861a;
+    border: 7px groove #5e1616;
+}
+
 .who {
-    background: hotpink;
-    border: 10px solid #ff8b33;
+    background: #ffdb84;
+    border: 10px groove #cb861a;
+    color:#5e1616;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
@@ -108,20 +157,21 @@ font-size: 14px
 }
 
 h2 {
-     font-family: "doublebass", sans-serif;
+     font-family: "Muppet Font";
 font-weight: 400;
 font-style: normal;
 font-size:xx-large;
 }
 p{
 font-family: "helvetica-lt-pro", sans-serif;
-font-weight: 200;
+font-weight: 400;
 font-style: normal;
 font-size: 14px;
 }
 .description {
-    background: hotpink;
-    border: 7px solid #ff8b33;
+    background: #ffdb84;
+    border: 7px ridge #ff8b33;
+    color:#5e1616;
     width: fit-content;
     text-align: center; 
     margin: 0 auto;
@@ -132,13 +182,13 @@ font-size: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: "helvetica-lt-pro", sans-serif;
-font-weight: 200;
+font-weight: 400;
 font-style: normal;
 font-size: 14px;
 }
 .return {
-    border: 7px solid hotpink;
-    background:#ff8b33;  
+    border: 7px ridge #cb861a;
+    background:#5e1616;  
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -148,19 +198,20 @@ font-size: 14px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: "doublebass", sans-serif;
+    font-family: "Muppet Font";
 font-weight: 400;
 font-style: normal;
 }
 .return:hover {
-background: #ffb923;
-    border: 7px solid #ff3333;
+background: #cb861a;
+    border: 7px ridge #5e1616;
 }
 
 a {
     text-decoration:none;
-    color: white;
+    color: #ffdb84;
 }
 hr {
-        border: dashed;
+        border: ridge #cb861a;
 }
+
