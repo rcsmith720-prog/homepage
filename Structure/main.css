@@ -1,0 +1,263 @@
+
+img {
+    max-width:100%;
+    width: 100vh
+}
+
+.page1 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+}
+
+.amazingrace {
+    background: #ffbf29;
+    border: 5px black solid;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.logo {
+    max-width:100%;
+    width: 100vh;
+    display:flex;
+    justify-content:center;
+    padding:10px;
+}
+
+.intro {
+    background:#ffbf29;
+    border: 5px solid black;
+    padding: 10px;
+    width: 100vh; 
+    height: 30vh;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cluecard {
+    max-width:100%;
+    width: 20vh;
+    border:2px black solid;
+    margin-top: 10px;
+    justify-content:center;  
+}
+
+.cluecard:hover {
+    border: 2px white solid;
+}
+
+.page2 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.route1 {
+    background: white;
+    border: 5px black solid;
+    border-radius: 15px;
+    height: 100vh;
+    width: 50vh;
+}
+
+.title1 {
+    background: #3b98d1;
+    height: 20vh;
+    margin: 10px;
+    border: 5px black solid;
+    border-radius: 10px;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 28px;
+}
+
+.info1 {
+    border: 5px black solid;
+    border-radius: 10px;
+    margin:10px;
+    height: 50vh;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 200;
+    font-style:normal;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link1 {
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 200;
+    font-style:normal;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plane {
+    max-width:100%;
+    width: 15vh;
+    display:flex;
+    align-items: center;
+}
+
+.plane:hover {
+    background: #ffbf29;
+}
+.page3 {
+    background-image: url("img/turkey.webp");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page4 {
+    background-image: url("img/ferry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page5 {
+    background-image: url("img/kiz-kulesi.webp");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page6 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page7 {
+    background-image: url("img/GalataTower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page8 {
+    background-image: url("img");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page9a {
+    background-image: url("img/BinbirdirekCistern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page9b {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page10 {
+    background-image: url("img/YeniMosque.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page11 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page12 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page13 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page14 {
+    background-image: url("img/Halil-Paşa-Kulesi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page15 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page16 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+.page17 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+}
+

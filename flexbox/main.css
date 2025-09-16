@@ -1,0 +1,45 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+.container {
+    background: lightblue;
+    padding: 10px;
+    display:flex;
+
+    /* flex-direction will determine the main axis
+    row = horizontal main axis (default)
+    column = vertical main axis */
+    flex-direction: row;
+
+    flex-wrap:wrap;
+
+    /* aligns items along the main axis */
+    justify-content: center;
+
+    height:400px;
+
+    /* align items is used for single line, non wrapping flexboxes it aligns the cross axis */
+    align-items:center;
+    /* align-content is used for multi line, wrapping flexboxes, it aligns along the cross axis */
+    align-content:center;
+
+    gap: 10px;
+}
+
+.item {
+    background: bisque;
+    padding:10px;
+    border: 1px solid;
+
+    width:200px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
