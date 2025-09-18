@@ -5,7 +5,7 @@ body {
     background-position: center;
     background-attachment:fixed;
     text-align: center;
-      color: white;
+    color: white;
 }
 
 img {
@@ -69,8 +69,8 @@ font-style: normal;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "doublebass", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .meet:hover {
@@ -132,9 +132,9 @@ font-size: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: "helvetica-lt-pro", sans-serif;
-font-weight: 200;
-font-style: normal;
-font-size: 14px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
 }
 .return {
     border: 7px solid hotpink;
@@ -149,8 +149,8 @@ font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "doublebass", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 .return:hover {
 background: #ffb923;

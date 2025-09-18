@@ -81,7 +81,7 @@ video{
     font-size: x-large;
 }
 .meet {
-     background: #5e1616;
+    background: #5e1616;
     border: 10px groove #cb861a;
     padding-left: 30px;
     padding-right: 30px;
@@ -134,8 +134,8 @@ video{
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Muppet Font";
-font-weight: 400;
-font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .name:hover {

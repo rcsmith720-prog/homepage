@@ -1,0 +1,96 @@
+img {
+    max-width:100%;
+}
+.page8 {
+    background-image: url("img/world-globe-tyjrsnehdnbzey0v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card {
+    background: white;
+    border: 5px black solid;
+    border-radius: 15px;
+    height: 130vh;
+    width: 50vh;
+}
+
+.detour {
+    background: #ffbf29;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 30px;
+    height: 20vh;
+    margin: 10px;
+    border: 5px black solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clue {
+    border: 5px black solid;
+    border-radius: 10px;
+    margin:10px;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 200;
+    font-style:normal;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    height: 97vh;
+    flex-direction: column;
+}
+
+.choice {
+    font-weight: 600;
+}
+
+.links {
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    flex-direction: row;
+    margin-top: auto;
+    justify-content: space-around;
+}
+
+.button {
+    width: 10vh;
+    height: 10vh;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.button:hover {
+    background: #ffbf29;
+}
+
+.cluecard {
+    max-width:100%;
+    width: 20vh;
+    border:2px black solid;
+    margin-top: 10px;
+    justify-content:center;  
+}
+
+.cluecard:hover {
+    border: 2px white solid;
+}
+
+
+
+
+
+
