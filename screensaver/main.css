@@ -1,0 +1,210 @@
+* {
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    background: pink;
+}
+
+.container {
+    width: 150vh;
+}
+
+.bubble1 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    opacity: 90%;
+    animation: pulse 4s -5s infinite alternate ;
+    position: absolute; 
+    top: 13%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1;
+    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+}
+
+.bubble2 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    opacity: 90%;
+    animation: pulse 4s -2s infinite alternate ;
+    position: absolute; 
+    top: 37%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1;
+    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+}
+
+.bubble3 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    opacity: 90%;
+    justify-content: space-around;
+    animation: pulse 4s -1s infinite alternate;
+    position: absolute; 
+    top: 10%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: radial-gradient(circle 175px, pink, rgba(225, 169, 220, 0));
+}
+
+.bubble4 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 50%;
+    opacity: 90%;
+    animation: pulse 4s -2.5s infinite alternate;
+    position: absolute; 
+    top: 10%;
+    right: 25%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: radial-gradient(circle 175px, pink, rgba(225, 169, 220, 0));
+}
+
+.bubble5 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 8.5vw;
+    height: 8.5vw;
+    border-radius: 50%;
+    opacity: 90%;
+    animation: pulse 4s -3s infinite alternate ;
+    position: absolute; 
+    top: 20%;
+    right: 7.5%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1;
+    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+}
+
+.bubble6 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    opacity: 90%;
+    animation: pulse 4s -6s infinite alternate ;
+    position: absolute; 
+    bottom: 12%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+}
+
+.bubble7 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    opacity: 90%;
+    animation: pulse 4s -3.5s infinite alternate;
+    position: absolute; 
+    bottom: 20%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: radial-gradient(circle 150px, pink, rgba(225, 169, 220, 0));
+}
+
+.bubble8 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    opacity: 90%;
+    animation: pulse 4s -6.5s infinite alternate ;
+    position: absolute; 
+    top: 45%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1;
+    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+}
+
+.bubble9 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    opacity: 90%;
+    animation: pulse 4s -1.5s infinite alternate;
+    position: absolute; 
+    bottom: 12%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: radial-gradient( circle 175px,pink, rgba(225, 169, 220, 0));
+}
+
+.bubble10 {
+    background: rgb(255, 169, 220);
+    border: 1px white solid;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    opacity: 90%;
+    animation: pulse 4s -5.5s infinite alternate ;
+    position: absolute; 
+    bottom: 15%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1;
+    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+}
+
+@keyframes pulse {
+    0% {
+    transform: translateY(0);
+    background-color: rgb(255, 169, 220);
+    scale:1;
+  }
+  20% {
+    transform: translateY(5px); 
+  } 
+  25%{
+    background-color: rgb(255, 255, 144);  
+    }
+  40% {
+    transform: translateY(-5px);
+  }
+  50%{
+    background-color: rgb(132, 254, 203)
+  }
+  60% {
+    transform: translateY(5px); 
+  }
+  75%{background-color: rgb(177, 238, 255);
+    }
+  80% {
+    transform: translateY(-5px); 
+  }
+  100% {
+    transform: translateY(0);
+    background-color: rgb(231, 171, 255);     
+    scale: 1.4;
+  }
+}
