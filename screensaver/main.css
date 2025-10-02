@@ -3,7 +3,7 @@
 }
 body{
     margin:0;
-    background: pink;
+    background: rgb(255, 192, 221);
 }
 
 .container {
@@ -24,8 +24,21 @@ body{
     transform: translate(-50%, -50%);
     padding: 20px;
     z-index: 1;
-    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+    background-image: radial-gradient(circle 100px, rgb(255, 192, 221), rgba(225, 169, 220, 0));
 }
+
+
+.shine1 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
+}
+
 
 .bubble2 {
     background: rgb(255, 169, 220);
@@ -41,7 +54,18 @@ body{
     transform: translate(-50%, -50%);
     padding: 20px;
     z-index: 1;
-    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+    background-image: radial-gradient(circle 100px, rgb(255, 192, 221), rgba(225, 169, 220, 0));
+}
+
+.shine2 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 1.3vw;
+  height: 1.3vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
 }
 
 .bubble3 {
@@ -58,7 +82,18 @@ body{
     left: 35%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-image: radial-gradient(circle 175px, pink, rgba(225, 169, 220, 0));
+    background-image: radial-gradient(circle 175px, rgb(255, 192, 221), rgba(225, 169, 220, 0));
+}
+
+.shine3 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 3.2vw;
+  height: 3.2vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
 }
 
 .bubble4 {
@@ -74,7 +109,18 @@ body{
     right: 25%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-image: radial-gradient(circle 175px, pink, rgba(225, 169, 220, 0));
+    background-image: radial-gradient(circle 175px, rgb(255, 192, 221), rgba(225, 169, 220, 0));
+}
+
+.shine4 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 4.5vw;
+  height: 4.5vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
 }
 
 .bubble5 {
@@ -91,7 +137,18 @@ body{
     transform: translate(-50%, -50%);
     padding: 20px;
     z-index: 1;
-    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+    background-image: radial-gradient(circle 100px, rgb(255, 192, 221), rgba(225, 169, 220, 0));
+}
+
+.shine5 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 2.3vw;
+  height: 2.3vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
 }
 
 .bubble6 {
@@ -110,6 +167,17 @@ body{
     background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
 }
 
+.shine6 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
+}
+
 .bubble7 {
     background: rgb(255, 169, 220);
     border: 1px white solid;
@@ -123,7 +191,18 @@ body{
     left: 27%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-image: radial-gradient(circle 150px, pink, rgba(225, 169, 220, 0));
+    background-image: radial-gradient(circle 150px, rgb(255, 192, 221), rgba(225, 169, 220, 0));
+}
+
+.shine7 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 2.6vw;
+  height: 2.6vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
 }
 
 .bubble8 {
@@ -140,7 +219,18 @@ body{
     transform: translate(-50%, -50%);
     padding: 20px;
     z-index: 1;
-    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+    background-image: radial-gradient(circle 100px, rgb(255, 192, 221), rgba(225, 169, 220, 0));
+}
+
+.shine8 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
 }
 
 .bubble9 {
@@ -156,7 +246,18 @@ body{
     right: 35%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-image: radial-gradient( circle 175px,pink, rgba(225, 169, 220, 0));
+    background-image: radial-gradient( circle 175px,rgb(255, 192, 221), rgba(225, 169, 220, 0));
+}
+
+.shine9 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
 }
 
 .bubble10 {
@@ -173,12 +274,23 @@ body{
     transform: translate(-50%, -50%);
     padding: 20px;
     z-index: 1;
-    background-image: radial-gradient(circle 100px, pink, rgba(225, 169, 220, 0));
+    background-image: radial-gradient(circle 100px, rgb(255, 192, 221), rgba(225, 169, 220, 0));
+}
+
+.shine10 {
+  background: rgba(255, 255, 255, 0.281);
+  border: 1px white solid;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  left: 57%;
 }
 
 @keyframes pulse {
     0% {
-    transform: translateY(0);
+    transform: translateY(-5px);
     background-color: rgb(255, 169, 220);
     scale:1;
   }
@@ -203,7 +315,7 @@ body{
     transform: translateY(-5px); 
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(5px);
     background-color: rgb(231, 171, 255);     
     scale: 1.4;
   }
