@@ -1,0 +1,45 @@
+<!doctype
+<html>
+    <head>
+        <title>javascript</title>
+        <link rel="stylesheet" href="main.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- general notes
+            - javascript =/= java
+            - javascript is one of the most popular programming languages
+            - we use the 'console' tab in our developer tools (inspect) for debugging  
+        -->
+
+    <button onclick="change()">Click me...</button>
+    <button onclick="glow()">glow</button>
+
+    <div class="menu">
+        Hello World!
+    </div>
+
+    <div class="gear"></div>
+
+    <script>
+
+        var menu = document.querySelector(".menu");
+        var gear = document.querySelector(".gear");
+
+        function change() {
+            console.log('it works!');
+            menu.classList.toggle("active");
+            gear.classList.toggle("spin");
+        }
+
+        function glow() {
+            menu.classList.toggle("glow");
+            gear.classList.toggle("glow");
+            document.body.classList.toggle("dark");
+        }
+
+    </script>
+    </body>
+</html>

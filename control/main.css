@@ -1,0 +1,196 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin: 0; 
+}
+
+
+img {
+    max-width:100%;
+}
+
+.left{
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.albums{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 75%;  
+}
+
+.reni-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.vinyl2 {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    bottom: 65px;
+    left: 144px;
+    display: none;
+}
+
+.rep-cover {
+   width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.mbf-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.folk-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.bday-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.sunshine-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.reveal {
+    display: block;
+}
+
+.reni-btn {
+    width: 123px;
+    margin-bottom: 15px;
+}
+
+
+.rep-btn {
+    width: 123px;
+    margin-bottom: 15px;
+}
+
+.mbf-btn {
+    width: 123px;
+    margin-bottom: 15px;
+}
+
+.folk-btn {
+    width: 123px;
+    margin-bottom: 15px;
+}
+
+.bday-btn {
+    width: 123px;
+    margin-bottom: 15px;
+}
+
+.sunshine-btn {
+    width: 123px;
+    margin-bottom: 15px;
+}
+
+.center {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.record-player {
+    width: 45vw;
+}
+
+/* .vinyl {
+    position: fixed;
+    width: 370px;
+    height: 370px;
+    top: 89px;
+    left: 360.5px;
+} */
+
+.reni {
+    bottom: 20px;
+    text-align: center;
+}
+
+/* .rep {
+    position: fixed;
+    bottom: 20px;
+}
+
+.mbf {
+    position: fixed;
+    bottom: 20px;
+}
+
+.folk {
+    position: fixed;
+    bottom: 20px;
+}
+
+.bday {
+    position: fixed;
+    bottom: 20px;
+}
+
+.sunshine {
+    position: fixed;
+    bottom: 20px;
+} */
+
+.right {
+    width: 25vw;
+    display: flex;
+}
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:10px;
+    right: 10px;
+}
+
+.instructions {
+
+}

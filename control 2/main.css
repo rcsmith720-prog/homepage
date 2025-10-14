@@ -1,0 +1,126 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin: 0; 
+}
+
+
+img {
+    max-width:100%;
+}
+
+.left{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reni-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.vinyl2 {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    bottom: 65px;
+    left: 144px;
+    display: none;
+}
+
+.rep-cover {
+   width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.mbf-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.folk-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.bday-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.sunshine-cover {
+    width: 150px;
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.reveal {
+    display: block;
+}
+
+
+.record-player {
+    width: 45vw;
+}
+
+/* .vinyl {
+    position: fixed;
+    width: 370px;
+    height: 370px;
+    top: 89px;
+    left: 360.5px;
+} */
+
+.reni {
+    bottom: 20px;
+    text-align: center;
+}
+
+.right {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:10px;
+    right: 10px;
+}
+
+
