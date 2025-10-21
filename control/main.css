@@ -135,12 +135,12 @@ button:active {
 
 .snap {
     background-color: aqua;
-    opacity:0%;
+    opacity: 0%;
     position: fixed;
     width: 28.7vw;
-    height: 62svh;
+    height: 61vh;
     right: 150px;
-    top: 87px;
+    top: 91px;
 }
 
 .controls{
