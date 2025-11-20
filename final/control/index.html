@@ -1,0 +1,116 @@
+<!DOCTYPE
+<html>
+    <head>
+        <title>record spinning</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/wev2iha.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="snap">snap</div> 
+
+        <div class="left">
+            <div class="intro">
+                <div class="welcome">Welcome!</div>
+                <div class="intructions">Take a moment to sit back and listen to some music. Simply select an album below, drag the record to the record player, and hit play to spin the record. Happy listening!</div>
+            </div>
+
+                <div class="reni-vinyls vinyls draggable"><img class="record" src="img/reni.png"></div> 
+                <div class="reni-albums albums"><img src="img/renaissancce.webp"></div>
+                <div class="rep-vinyls vinyls draggable"><img class="record" src="img/rep.png"></div> 
+                <div class="rep-albums albums"><img src="img/rep.webp"></div>
+                <div class="mbf-vinyls vinyls draggable"><img class="record" src="img/mbf.png"></div>
+                <div class="mbf-albums albums"><img src="img/mbf.webp"></div>
+                <div class="folk-vinyls vinyls draggable"><img class="record" src="img/folk.png"></div>  
+                <div class="folk-albums albums"><img src="img/folklore.webp"></div>
+                <div class="bday-vinyls vinyls draggable"><img class="record" src="img/bday.png"></div> 
+                <div class="bday-albums albums"><img src="img/bday.webp"></div>
+                <div class="sunshine-vinyls vinyls draggable"><img class="record"src="img/sunshine.png"></div> 
+                <div class="sunshine-albums albums"><img src="img/sunshine.webp"></div>
+
+             <div class="center">
+                    <div class="center-top">
+                        <button class="bday-btn btn">B'Day</button>
+                        <button class="folk-btn btn">folklore</button>
+                        <button class="sunshine-btn btn">eternal sunshine</button>
+                    </div>
+                    
+                    <div class="center-bottom">
+                        <button class="mbf-btn btn">Man's Best Friend</button>
+                        <button class="reni-btn btn">Renaissance</button>
+                        <button class="rep-btn btn">reputation</button>
+                    </div>
+                    
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="record-player right"><img src="img/record player.png"></div> 
+            
+            <div class="reni-controls controls">
+                <button class="reni-play play">PLAY</button>
+                <button class="reni-stop play">STOP</button>
+            </div>
+
+            <div class="rep-controls controls">
+                <button class="rep-play play">PLAY</button>
+                <button class="rep-stop play">STOP</button>
+            </div>
+
+            <div class="mbf-controls controls">
+                <button class="mbf-play play">PLAY</button>
+                <button class="mbf-stop play">STOP</button>
+            </div>
+
+            <div class="folk-controls controls">
+                <button class="folk-play play">PLAY</button>
+                <button class="folk-stop play">STOP</button>
+            </div>
+
+            <div class="bday-controls controls">
+                <button class="bday-play play">PLAY</button>
+                <button class="bday-stop play">STOP</button>
+            </div>
+
+            <div class="sunshine-controls controls">
+                <button class="sunshine-play play">PLAY</button>
+                <button class="sunshine-stop play">STOP</button>
+            </div>
+
+            <audio id="reni-audio">
+                <source src="songs/energy.mp3" type="audio/mpeg">
+            </audio>
+
+            <audio id="rep-audio">
+                <source src="songs/blame.mp3" type="audio/mpeg">
+            </audio>
+
+            <audio id="mbf-audio">
+                <source src="songs/sugar.mp3" type="audio/mpeg">
+            </audio>
+
+            <audio id="folk-audio">
+                <source src="songs/cardigan.mp3" type="audio/mpeg">
+            </audio>
+
+            <audio id="bday-audio">
+                <source src="songs/dress.mp3" type="audio/mpeg">
+            </audio>
+
+            <audio id="sunshine-audio">
+                <source src="songs/sunshine.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+        
+    <script src="jquery-3.7.1.min.js"></script>
+    
+    <script src="jquery-ui.min.js"></script>
+    
+    <script src="main.js"></script>
+    
+    </body>
+</html>

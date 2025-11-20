@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.flipbook {
+    width: 54vw;
+    height: 88.5vh;
+}
+
+.flipbook .sheet {
+    width:27vw;
+}
+
+.flipbook .hard small{
+	font-style: italic;
+	font-weight: lighter;
+	opacity: 0.7;
+	font-size: 14px;
+}
+
+.flipbook .page {
+    background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.page img{
+	width: 100%;
+	object-fit: cover;
+	margin: none;
+}
+
+.flipbook .page small{
+	font-size: 14px;
+}
+
+.zine {
+    width: 59.3vw;
+    height: 88.5vh;
+}
+
+.zine .sheet {
+    width:29.65vw;
+}
+
+.zine .hard small{
+	font-style: italic;
+	font-weight: lighter;
+	opacity: 0.7;
+	font-size: 14px;
+}
+
+.zine .page {
+    background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.zine .page small{
+	font-size: 14px;
+}
+
+.bur {
+    width: 54.35vw;
+    height: 88.5vh;
+}
+
+.bur .sheet {
+    width:27vw;
+}
+
+.bur .hard small{
+	font-style: italic;
+	font-weight: lighter;
+	opacity: 0.7;
+	font-size: 14px;
+}
+
+.bur .page {
+    background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.bur .page small{
+	font-size: 14px;
+}

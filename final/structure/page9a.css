@@ -1,0 +1,42 @@
+img {
+    max-width:100%;
+}
+
+.page1 {
+    background-image: url("img/BinbirdirekCistern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+}
+
+.button {
+   max-width:100%;
+    width: 10vh;
+    margin-top: 10px;
+    justify-content:center; 
+}
+
+.infocard {
+    background:#ffbf29;
+    border: 5px solid black;
+    padding: 10px;
+    width: 100vh; 
+    height: 30vh;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+
+

@@ -1,0 +1,166 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;  
+    margin: 0; 
+    background-image: url("img/wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    align-content: center;
+}
+
+img {
+    max-width:100%;
+}
+
+button{
+    font-family: "fino-sans", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color:#faab75 ;
+    width: 11vw;
+    height: 7vh;
+    background: #481d01;
+    border: 5px #632901 outset ;
+    border-radius: 50px;
+}
+
+button:active {
+    width: 11vw;
+    height: 7vh;
+    background: #2a1100;
+    border: 5px #632901 inset ;
+    color: #de9462;
+}
+
+
+.left{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome{
+    font-family: "fino-sans", sans-serif;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.intro {
+    background: #481d01;
+    border: #632901 5px inset;
+    font-family: "fino-sans", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color:#faab75 ;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;    
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.albums{
+    width: 29.5vw;
+    height: 29.5vh;
+    position: fixed;
+    top: 75px;
+    left: 40px;
+    display: flex;
+    height: 25%;
+    display: none;
+}
+
+.vinyls {
+    position: fixed;
+    width: 28.7vw;
+    height: 28.7vh;
+    top: 80px;
+    left: 214.5px;
+    display: none;
+}
+
+.record{
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
+}
+
+.record.spin {
+    animation-play-state: running;
+}
+
+.center {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    position: fixed;
+    bottom: 20px;
+    gap: 10px;
+}
+
+.center-top{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.center-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.right {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.record-player {
+    width: 43vw;
+    margin-bottom: 30px;
+}
+
+.snap {
+    background-color: aqua;
+    opacity: 0%;
+    position: fixed;
+    width: 28.7vw;
+    height: 61vh;
+    right: 150px;
+    top: 91px;
+}
+
+.controls{
+    bottom: 40px;
+    position: fixed;
+    display: flex;
+    gap: 100px;
+    display: none;
+}
+
+.reveal {
+    display: block;
+}
+
+
+@keyframes spin {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}

@@ -33,7 +33,7 @@ img {
     width: 100px;
     height: 100px;
     background: lightblue;
-    transition: background.3s;
+    transition: background .3s;
     animation: spin 5s linear infinite;
     animation-play-state: paused;
 }
