@@ -9,17 +9,19 @@ img {
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin:0;
+  background-color: beige;
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: maroon;
+  display: sticky;
 }
 
 .navbar .home {
   float:left;
   font-size: 16px;
-  color: white;
+  color: beige;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,13 +30,11 @@ body {
 .navbar a {
   float: right;
   font-size: 16px;
-  color: white;
+  color: beige;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
-
 
 .dropdown {
   float: right;
@@ -53,10 +53,10 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  color: red;
 }
 
-.dropdown-content {
+/* .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -70,7 +70,7 @@ body {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: left; */
 }
 
 .dropdown-content a:hover {
@@ -93,10 +93,40 @@ body {
 
 .column {
   float: left;
-  width: 33%;
+  width: 30%;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.text-column {
+  float: left;
+  width: 50vw;
+  height: 27vh;
+  display: flex;
+  padding:20px;
+  margin-right: 30px;
+  margin-left: 100px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: maroon;
+  border-radius: 20px;  
+  color: beige;
+}
+
+.img-column {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin:
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* The Modal (background) */
@@ -204,6 +234,7 @@ img.hover-shadow {
 .books{
     display: flex;
     justify-content: center;
+    margin-top: 70px;
     height: 60vh;
     width:33vw;
 }
@@ -211,23 +242,20 @@ img.hover-shadow {
 .red{
     display: flex;
     justify-content: center;
-    height: 55vh;
-    width: 17vw;
+    height: 70vh;
 }
 
 .thrift{
     display: flex;
     justify-content: center;
-    height: 55vh;
-    width: 20vw;
+    height: 70vh;
 }
 
 .effects{
     display: flex;
     justify-content: center;
-    height: 55vh;
-    width: 18vw;
-}
+    height: 69vh;
+  }
 
 .helvetica{
     display: flex;
@@ -246,7 +274,15 @@ img.hover-shadow {
 .web{
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+    padding:10px;
     height: 60vh;
     width:46vw;
 }
 
+.me{
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+    height: 80vh;
+}

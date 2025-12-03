@@ -1,0 +1,608 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;  
+    margin: 0; 
+    background-color: #800303;
+}
+
+img {
+    max-width:100%;
+    height: 100vh;
+}
+
+.start-btn{
+    position: fixed;
+    top: 240px;
+    left:490px;
+    font-family: "tempting";
+    font-style: normal;
+    font-size: 20px;
+    color:rgb(255, 255, 203) ;
+    padding-top: 10px;
+    width: 14vw;
+    height: 10vh;
+    background: #6f0101;
+    border: 5px #990101 outset ;
+    border-radius: 50px;
+}
+
+.fan-btn{
+    position: fixed;
+    top: 240px;
+    left:500px;
+}
+
+.refresh-btn{
+    position: fixed;
+    display: none;
+    top: 240px;
+    left:490px;
+    font-family: "tempting";
+    font-style: normal;
+    font-size: 20px;
+    animation: appear 4.5s ease-in-out forwards;;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+    color:rgb(255, 255, 203) ;
+    padding-top: 10px;
+    width: 14vw;
+    height: 10vh;
+    background: #6f0101;
+    border: 5px #990101 outset ;
+    border-radius: 50px;
+}
+
+.refresh-btn.appear{
+    animation-play-state: running;
+}
+
+.btn1:active {
+    width: 14vw;
+    height: 10vh;
+    background: #5c0000;
+    border: 5px #830101 inset ;
+    color: rgb(227, 227, 189);
+}
+
+.btn{
+    font-family: "bodoni 72", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color:rgb(255, 255, 203) ;
+    width: 12vw;
+    height: 7vh;
+    background: #6f0101;
+    border: 5px #990101 outset ;
+    border-radius: 50px;
+}
+
+.btn:active {
+    width: 12vw;
+    height: 7vh;
+    background: #5c0000;
+    border: 5px #830101 inset ;
+    color: rgb(227, 227, 189);
+}
+
+.boa-btn{
+    display:none;
+    position: fixed;
+    top: 249.25px;
+    left:340px;
+}
+
+.glove-again{
+    display:none;
+    position: fixed;
+    top: 494px;
+    right:158px;
+}
+
+.glove-btn{
+    display:none;
+    position: fixed;
+    top: 155px;
+    left:180px;
+}
+
+.dress-again1{
+    display:none;
+    position: fixed;
+    top: 22px;
+    right:292px;
+}
+
+.dress-again2{
+    display:none;
+    position: fixed;
+    top: 176px;
+    left:259px;
+}
+
+.dress-again3{
+    display:none;
+    position: fixed;
+    top: 22px;
+    right:176px;
+}
+
+.dress-again4{
+    display:none;
+    position: fixed;
+    top: 188px;
+    left:26px;
+}
+
+.dress-btn{
+    display:none;
+    position: fixed;
+    top: 402px;
+    right:220px;
+}
+
+.tights-again1{
+    display:none;
+    position: fixed;
+    top: 264px;
+    left:205px;
+}
+
+.tights-again2{
+    display:none;
+    position: fixed;
+    top: 134px;
+    right:20px;
+}
+
+.tights-again3{
+    display:none;
+    position: fixed;
+    top: 103px;
+    left:143px;
+}
+
+.tights-again4{
+    display:none;
+    position: fixed;
+    top: 99px;
+    right:309px;
+}
+
+.tights-again5{
+    display:none;
+    position: fixed;
+    top: 186px;
+    left:239px;
+}
+
+.tights-again6{
+    display:none;
+    position: fixed;
+    top: 16px;
+    right:65px;
+}
+
+.tights-again7{
+    display:none;
+    position: fixed;
+    top: 401px;
+    left:226px;
+}
+
+.tights-again8{
+    display:none;
+    position: fixed;
+    top: 301px;
+    right:40px;
+}
+
+.tights-again9{
+    display:none;
+    position: fixed;
+    top: 212px;
+    left:50px;
+}
+
+.tights-btn{
+    display:none;
+    position: fixed;
+    top: 479px;
+    right:16px;
+}
+
+.corset-again1{
+    display:none;
+    position: fixed;
+    top: 221px;
+    left:113px;
+}
+
+.corset-again2{
+    display:none;
+    position: fixed;
+    top: 122px;
+    right:3px;
+}
+
+.corset-again3{
+    display:none;
+    position: fixed;
+    top: 1px;
+    left:225px;
+}
+
+.corset-again4{
+    display:none;
+    position: fixed;
+    top: 402px;
+    right:35px;
+}
+
+.corset-again5{
+    display:none;
+    position: fixed;
+    top: 131px;
+    left:332px;
+}
+
+.corset-again6{
+    display:none;
+    position: fixed;
+    top: 294px;
+    right:250px;
+}
+
+.corset-again7{
+    display:none;
+    position: fixed;
+    top: 74px;
+    left:261px;
+}
+
+.corset-again8{
+    display:none;
+    position: fixed;
+    top: 153px;
+    right:186px;
+}
+
+.corset-again9{
+    display:none;
+    position: fixed;
+    top: 27px;
+    left:252px;
+}
+
+.corset-again10{
+    display:none;
+    position: fixed;
+    top: 240px;
+    right:79px;
+}
+
+.corset-again11{
+    display:none;
+    position: fixed;
+    top: 388px;
+    left:67px;
+}
+
+.corset-again12{
+    display:none;
+    position: fixed;
+    top: 236px;
+    right:65px;
+}
+
+.corset-again13{
+    display:none;
+    position: fixed;
+    top: 75px;
+    left:135px;
+}
+
+.corset-again14{
+    display:none;
+    position: fixed;
+    top: 4px;
+    right:249px;
+}
+
+.corset-again15{
+    display:none;
+    position: fixed;
+    top: 330px;
+    left:204px;
+}
+
+.corset-again16{
+    display:none;
+    position: fixed;
+    top: 349px;
+    right:256px;
+}
+
+.corset-again17{
+    display:none;
+    position: fixed;
+    top: 148px;
+    left:182px;
+}
+
+.corset-again18{
+    display:none;
+    position: fixed;
+    top: 154px;
+    right:227px;
+}
+
+.corset-again19{
+    display:none;
+    position: fixed;
+    top: 354px;
+    left:185px;
+}
+
+.corset-btn{
+    display:none;
+    position: fixed;
+    top: 299px;
+    right:114px;
+}
+
+.girl{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dancer{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+}
+.headpiece{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+}
+
+.shoes{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+}
+.corset{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+    animation: remove-left 4s linear;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.corset.remove-left{
+    animation-play-state: running;
+}
+
+.tights{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+    animation: remove-right 4s linear;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.tights.remove-right{
+    animation-play-state: running;
+}
+
+
+.dress{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+    animation: remove-left 4s linear;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.dress.remove-left{
+    animation-play-state: running;
+}
+
+.hands{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+}
+
+.gloves{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+    animation: remove-right 4s linear;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.gloves.remove-right{
+    animation-play-state: running;
+}
+
+.boa{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+    animation: remove-left 4s linear;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.boa.remove-left{
+    animation-play-state: running;
+}
+
+
+.feather1{
+    position: fixed;
+    top: -100px;
+    left:120px;
+    transform: rotate(5deg);
+}
+
+.feather2{
+    position: fixed;
+    bottom: -100px;
+    left:120px;
+    transform: rotate(185deg);
+    display: flex;
+}
+
+.fan{
+    animation: move 3s linear;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.fan.move{
+    animation-play-state: running;
+}
+
+.fan.move-in{
+    animation: move-in 3s linear; 
+    animation-play-state: running;
+}
+
+.curtainR1{
+    position: fixed;
+    top:0px;
+    right:0px;
+}
+
+.curtainL1{
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+.curtainL{
+    width:53.5vw;
+    animation: pullL 3s linear;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.curtainL.pullL{
+    animation-play-state: running;
+}
+
+.curtainL.dropL{
+    animation: dropL 3s linear; 
+    animation-play-state: running;
+}
+
+.curtainR{
+    width:53.5vw;
+    animation: pullR 3s linear;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.curtainR.pullR{
+    animation-play-state: running;
+}
+
+.curtainR.dropR{
+    animation: dropR 3s linear;
+    animation-play-state: running;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-100vw); 
+    }
+}
+
+@keyframes move-in {
+    0% {
+        transform: translateY(-500px);
+    }
+    100% {
+        transform: translateY(0vw); 
+    }
+}
+
+@keyframes pullL {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-100vw); 
+    }
+}
+
+@keyframes dropL {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(0vw); 
+    }
+}
+
+@keyframes pullR {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+}
+
+@keyframes dropR {
+    0% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(0vw); 
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+@keyframes remove-right {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+}
+
+@keyframes remove-left {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-100vw); 
+    }
+}
+
+.reveal {
+    display: block;
+}
