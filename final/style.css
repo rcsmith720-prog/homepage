@@ -28,7 +28,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.11);
 }
 
 .page img{
@@ -63,7 +62,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.11);
 }
 
 .zine .page small{
@@ -76,7 +74,7 @@
 }
 
 .bur .sheet {
-    width:27vw;
+    width:27.5vw;
 }
 
 .bur .hard small{
@@ -92,7 +90,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.11);
 }
 
 .bur .page small{
