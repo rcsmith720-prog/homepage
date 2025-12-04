@@ -95,3 +95,49 @@
 .bur .page small{
 	font-size: 14px;
 }
+
+@media screen and (max-width: 1000px) {
+
+  main{
+    flex-wrap: wrap;
+  }
+
+  .zine, .bur{
+	height:77.3vh;
+	margin-top:35px;
+  }
+
+  .bur{
+	height:77.4vh;
+	margin-top:35px;
+  }
+
+  .flipbook {
+	height:76.9vh;
+	margin-top:34px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  main{
+    flex-wrap: wrap;
+  }
+
+  .zine{
+	height:46.3vh;
+	margin-top:100px;
+  }
+
+  .bur{
+	height:46.5vh;
+	margin-top:100px;
+  }
+
+  .flipbook {
+	height:46vh;
+	margin-top:100px;
+  }
+
+}

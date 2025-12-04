@@ -413,3 +413,80 @@ img.hover-shadow {
 .resume:hover{
   color: dodgerblue;
 }
+
+@media screen and (max-width: 1000px) {
+
+  main{
+    flex-wrap: wrap;
+  }
+
+  .flip-box{
+    height:79.4vh;
+  }
+
+  .flip-box-back {
+    height:79.4vh;
+  }
+
+  .poster {
+    width: 50%;
+  }
+
+  .web {
+    width: 100%;
+  }
+  .helvetica, .sab {
+    height: 90%;
+    margin-top: 50px;
+  }
+
+  .painting {
+    margin-left: 90px;
+    height: 80%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 120%;
+  }
+  main, .home {
+    flex-direction: column;
+  }
+
+  .text-column{
+    margin: 10px;
+    width: 80%;
+  }
+
+  .flip-box{
+    width: 50%;
+    margin:10px;
+    height:75.8vh;
+  }
+
+  .flip-box-back {
+    height:75.8vh;
+  }
+
+  .column{
+    width:100%;
+  } 
+
+  .helvetica, .sab {
+    height: 80%;
+    margin-top: 88px;
+  }
+
+  .painting {
+    margin-left: 18px;
+    height: 80%;
+    margin-top: 60px;
+  }
+
+  .zine {
+    width: 100%;
+  }
+
+}
