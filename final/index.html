@@ -12,6 +12,18 @@
     <body>
        
         <div class="navbar">
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="sid poster" href="posters.html">Posters</a>
+                <a class="side" href="publications.html">Publications</a>
+                <a class="side" href="websites.html">Websites</a>
+                <a class="side" href="other-works.html">Other Work</a>
+                <a class="side" href="portfolio-img/Ryan Smith - Resume (1).pdf" download="Ryan-Smith-Resume.pdf" target="_blank">My Resume</a>
+                <a class="side" href="contact.html">Contact Me</a>
+            </div>
+            <div id="main">
+            <button class="openbtn" onclick="openNav()" onclick="closeNav()">&#9776;</button>
+            </div>    
             <a class="work" href="contact.html">Contact Me</a>
             <a class="work" href="portfolio-img/Ryan Smith - Resume (1).pdf" download="Ryan-Smith-Resume.pdf" target="_blank">My Resume</a>
             <a class="work" href="other-works.html">Other Work</a>
@@ -20,6 +32,10 @@
             <a class="work" href="posters.html">Posters</a>
             <a class="name" href="index.html">RCS</a>
         </div>
+
+        
+
+        
 
         <div class="marquee-container">
             <div class="marquee-content">
@@ -58,6 +74,18 @@
             </div>
 
         </div>
+        <script> 
+            function openNav() {
+            document.getElementById("mySidebar").style.width = "225px";
+            document.getElementById("main").style.marginRight = "225px";
+            }
+
+            function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginRight = "0";
+            }
+        </script>
+        
 
         <script src="jquery-3.7.1.min.js"></script>
     
