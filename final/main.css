@@ -388,12 +388,27 @@ img.hover-shadow {
   flex-direction: column;
 }
 
+.contact-info {
+  background-color: rgb(30, 30, 70);
+  margin-top: 20px;
+  width: 300px;
+  height:40vh;
+  float: left;
+  display: flex;
+  border-radius: 70px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
 .contact{
   text-decoration: none;
   font-family: "carol-gothic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 45px;
+  font-size: 35px;
+  color: beige;
+  padding: 10px;
 }
 
 .insta{
@@ -401,6 +416,12 @@ img.hover-shadow {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  color:beige;
+  text-decoration: none;
+}
+
+.insta:hover{
+  color: dodgerblue;
 }
 
 .resume{
@@ -416,6 +437,12 @@ img.hover-shadow {
 .resume:hover{
   color: dodgerblue;
 }
+
+.photo{
+  font-size: 14px;
+}
+
+
 
 @media screen and (max-width: 1000px) {
 
